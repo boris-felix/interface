@@ -1,0 +1,2 @@
+export const UPDATE_DATAS = 'UPDATE_DATAS';
+export const FILTER_VALUES = 'FILTER_VALUES';
