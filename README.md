@@ -1,6 +1,6 @@
-# Pivot App
+# Interface App
 
-![](https://github.com/boris-felix/pivot/blob/master/Screen%20Shot%202016-09-07%20at%2012.12.46.png)
+![](https://github.com/boris-felix/interface/blob/master/Screen%20Shot%202016-09-07%20at%2013.26.21.png)
 
 ## DEVELOPMENT
 

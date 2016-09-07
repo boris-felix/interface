@@ -6,6 +6,18 @@ const Data = [
 		age: 45,
 		shoe_size: 8,
 		title: 'CEO'
+	},
+	{
+		name: 'Titi',
+		age: 23,
+		shoe_size: 4,
+		title: 'Accountant'
+	},
+	{
+		name: 'Tutu',
+		age: 30,
+		shoe_size: 8,
+		title: 'CTO'
 	}
 ];
 
