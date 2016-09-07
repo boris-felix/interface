@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Item from '../components/Item';
 import { filterValues } from '../actionsCreator';
+
+const { shape, string, number } = PropTypes;
 
 class Layout extends Component {
 	render () {
@@ -39,6 +41,15 @@ class Layout extends Component {
 		)
 	}
 }
+
+Layout.PropTypes = {
+	accounts: shape({
+		name: string.isRequired,
+		age: number.isRequired,
+		shoe_size: number.isRequired,
+		title: string.isRequired
+	})
+};
 
 const mapStateToProps = ({ accounts, filter }) => ({
 	accounts,
