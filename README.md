@@ -69,8 +69,7 @@ docker-compose up -d nginx
 
 ## QUESTIONS :
 
-- What event is triggering the loading of the datas ? Then when this event is triggered, should we update the page constantly or should it be updated only when the user refresh the page ?
-- For every items in the list, what information should also be a link ? What should be the identifier for each item ? We may need an ID for each of them.
-- When a user type a search from a mobile, how should the list of results should appear ? Should we filter the list of result from an account page when we are on a mobile ? Do we have to show for exemple an account detail and underneath the list of result or should we just deactivate the search result list ?
-
-
+- Because its a search page, we assume that by default the full list of datas will be loaded.
+- Should the typing in the search input should trigger an API call or just filter the loaded list ?
+- Should the user be only able to type a word and then press a button or enter to make a call to the api ?
+- Should the user be able to click on an item and then land to an another page with more details ?
