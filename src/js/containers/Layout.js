@@ -15,16 +15,16 @@ class Layout extends Component {
 			<div>
 				<h1>Search</h1>
 				<div className="searchbox">
-					<label>Search for an account</label>
-					<input onChange={onChange} type="text" />
+					<label className="col-md-6 col-sd-12 col-xs-12">Search for an account</label>
+					<input className="col-md-6 col-sd-12 col-xs-12" onChange={onChange} type="text" />
 				</div>
 				<table className="table">
 					<thead>
-						<tr className="grid--header hidden-sd hidden-xs">
-							<th className="col-md-4">Name</th>
-							<th className="col-md-4">Age</th>
-							<th className="col-md-4">Shoe size</th>
-							<th className="col-md-4">Title</th>
+						<tr className="grid--header">
+							<th className="col-md-4 col-sd-6 col-xs-6">Name</th>
+							<th className="col-md-4 hidden-sm hidden-xs">Age</th>
+							<th className="col-md-4 hidden-sm hidden-xs">Shoe size</th>
+							<th className="col-md-4 col-sd-6 col-xs-6">Title</th>
 						</tr>
 					</thead>
 					<tbody>

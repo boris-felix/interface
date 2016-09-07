@@ -1,7 +1,23 @@
 .searchbox {
-	margin: 20px;
+	padding: 20px 10px;
+	overflow: hidden;
+	background-color: $background-color;
+
+	label, input {
+		display: block;
+	}
+
+	input {
+		line-height: 30px;
+		font-size: 20px;
+
+		@media screen and (max-width: 767px) {
+			font-size: 24px;
+		}
+	}
 
 	label {
+		font-weight: normal;
 		margin-right: 10px;
 	}
 }

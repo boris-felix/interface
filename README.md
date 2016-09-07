@@ -1,6 +1,6 @@
 # Interface App
 
-![](https://github.com/boris-felix/interface/blob/master/Screen%20Shot%202016-09-07%20at%2013.26.21.png)
+![](https://github.com/boris-felix/interface/blob/master/public/assets/Screen%20Shot%202016-09-07%20at%2014.26.12.png)
 
 ## DEVELOPMENT
 
